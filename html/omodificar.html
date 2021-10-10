@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar - SIC</title>
+</head>
+<body>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Modificar</a>
+        <a href="#">Salir</a>
+    </nav>
+    <form>
+        <table>
+            <caption>Actualización de preestudio del cliente</caption>
+            <tr>
+                <td> Número de la solicitud: </td>
+                <td> <input type="text" id="fNumeroDeSolicitud" name="fNumeroDeSolicitud"></td>
+            </tr>
+            <tr>
+                <td>Número de cédula: </td>
+                <td><input type="text" id="cedula" name="cedula"></td>
+                <td>Edad :</td>
+                <td><input type="text" id="edad" name="edad"></td>
+            </tr>
+            <tr>
+                <td>Primer nombre: </td>
+                <td><input type="text" id="nom1" name="nom1"></td>
+                <td>Segundo nombre:</td>
+                <td><input type="text" id="nom2" name="nom2"></td>
+            </tr>
+            <tr>
+                <td>Primer apellido: </td>
+                <td><input type="text" id="ape1" name="ape1"></td>
+                <td>Segundo apellido :</td>
+                <td><input type="text" id="ape2" name="ape2"></td>
+            </tr>
+            <tr>
+                <td>Teléfono: </td>
+                <td><input type="tel" id="tel" name="tel"></td>
+                <td>Fecha actualización:</td>
+                <td><input type="date" id="fecha" name="fecha"></td>
+            </tr>
+            <tr>
+                <td>Salario mensual: </td>
+                <td><input type="text" id="salario" name="salario"></td>
+                <td>Valor solicitado :</td>
+                <td><input type="text" id="solicitud" name="solicitud"></td>
+            </tr>
+            <tr>
+                <td>Certificado laboral: </td>
+                <td><input type="radio" id="certificadosi" name="certificado">
+                <label for="si">Si</label><br>
+                <input type="radio" id="certificadono" name="certificado">
+                <label for="no">No</label></td>
+                <td>Viabilidad: </td>
+                <td><input type="radio" id="Viabilidad" name="Viabilidad">
+                <label for="si">Si</label><br>
+                <input type="radio" id="Viabilidad" name="Viabilidad">
+                <label for="no">No</label></td>
+            </tr>
+            <tr>
+                <td>¿Está reportado en centrales?: </td>
+                <td><input type="radio" id="fReporteCentralesDeRiesgo" name="fReporteCentralesDeRiesgo">
+                <label for="si">Si</label><br>
+                <input type="radio" id="fReporteCentralesDeRiesgo" name="fReporteCentralesDeRiesgo">
+                <label for="no">No</label></td>
+                <td>Capacidad de crédito: </td>
+                <td><input type="text" id="Capacidad" name="Capacidad"></td>
+            </tr>
+            <tr>
+                <td>Valor aprobado: </td>
+                <td><input type="text" id="fValorAprobado" ></td>
+                <br><br>
+                <td>Observaciones : </td>
+                <td><textarea name="observaciones" rows="10" cols="19">Observaciones</textarea></td>
+                </tr>
+            <br><br><br>
+        </table>
+        <br>
+        <button type="submit">Consultar</button>
+        <button type="submit">Actualizar</button>
+    </form>
+</body>
+</html>

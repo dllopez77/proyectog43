@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar</title>
+</head>
+<body>
+    <nav>
+        <a href="#"><b>Modificar</b></a>
+        <a href="#"><b>Salir</b></a>
+    </nav>
+        <form>
+        <table>
+            <caption><b>Actualización datos del cliente</b></caption>
+            <tr>
+                <td><b> Id solicitud: </b></td>
+                <td> <input type="text" id="fId solicitud" name="Id solicitud"></td>
+            </tr>
+            <tr>
+                <td><b>Número de cédula: </b></td>
+                <td><input type="text" id="cedula" name="cedula"></td>
+                <td><b>Edad :</b></td>
+                <td><input type="text" id="edad" name="edad"></td>
+            </tr>
+            <tr>
+                <td><b>Primer Nombre: </b></td>
+                <td><input type="text" id="nom1" name="nom1"></td>
+                <td><b>Segundo Nombre:</b></td>
+                <td><input type="text" id="nom2" name="nom2"></td>
+            </tr>
+            <tr>
+                <td><b>Primer Apellido: </b></td>
+                <td><input type="text" id="ape1" name="ape1"></td>
+                <td><b>Segundo Apellido :</b></td>
+                <td><input type="text" id="ape2" name="ape2"></td>
+            </tr>
+            <tr>
+                <td><b>Número Telefónico: </b></td>
+                <td><input type="tel" id="tel" name="tel"></td>
+                <td><b>Actualización de fecha de integro:</b></td>
+                <td><input type="date" id="fecha" name="fecha"></td>
+            </tr>
+            <tr>
+                <td><b>Salario Mensual: </b></td>
+                <td><input type="text" id="salario" name="salario"></td>
+                <td><b>Cantidad solicitada :</b></td>
+                <td><input type="text" id="solicitud" name="solicitud"></td>
+            </tr>
+            <tr>
+                <td><b>Certificado laboral: </b></td>
+                <td><input type="radio" id="certificadosi" name="certificado">
+                <label for="si">Si</label><br>
+                <input type="radio" id="certificadono" name="certificado">
+                <label for="no">No</label></td>
+                <td><b>Viabilidad: </b></td>
+                <td><input type="radio" id="Viabilidad" name="Viabilidad">
+                <label for="si">Si</label><br>
+                <input type="radio" id="Viabilidad" name="Viabilidad">
+                <label for="no">No</label></td>
+            </tr>
+            <tr>
+                <td><b>¿Reportado en centrales de riesgo?: </b></td>
+                <td><input type="radio" id="fReporteCentralesDeRiesgo" name="fReporteCentralesDeRiesgo">
+                <label for="si">Si</label><br>
+                <input type="radio" id="fReporteCentralesDeRiesgo" name="fReporteCentralesDeRiesgo">
+                <label for="no">No</label></td>
+
+                <td><b>Pendiente de Pre-estudio </b></td>
+                <td><input type="radio" id="fPendiente de Pre-estudio" name="fPendiente de Pre-estudio">
+                <label for="si">Si</label><br>
+                <input type="radio" id="fPendiente de Pre-estudio" name="fPendiente de Pre-estudio">
+                <label for="no">No</label></td>
+</tr>
+            <tr>
+                <td><b>Cantidad Aprobada: </b></td>
+                <td><input type="text" id="fCantidadAprobada" ></td>
+                <br><br>
+                <td><b>Observaciones Generales : </b></td>
+                <td><textarea name="observaciones" rows="10" cols="19">Observaciones</textarea></td>
+                </tr>
+            <br><br><br>
+        </table>
+        <br>
+        <br>
+        <button type="submit"><b>Consultar</b></button>
+        <button type="submit"><b>Actualizar</b></button>
+    </form>
+</body>
+</html>

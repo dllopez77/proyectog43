@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="LCI">
+<meta name="keywords" content="HTML5">
+<title>Menu asesor</title>
+
+
+</head>
+<body>
+    
+    <nav class="menu">
+        <ul>
+          <li><a href="#">Pre-estudio</a></li>
+          <li><a href="#">Consultar</a></li>
+          <li><a href="consultar.html">Modificar</a></li>
+          <li><a href="index.html">Salir</a></li>
+        </ul>
+      </nav>
+
+    <br><br><br><br>
+
+
+<form>
+<table>
+
+<caption>Registro de solicitante</caption>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+    <td>Número de cédula : </td>
+    <td><input type="text" id="cedula" name="cedula"></td>
+    <td>edad :</td>
+    <td><input type="text" id="edad" name="edad"></td>
+</tr>
+<tr>
+    <td>Primer nombre : </td>
+    <td><input type="text" id="nom1" name="nom1"></td>
+    <td>Segundo nombre :</td>
+    <td><input type="text" id="nom2" name="nom2"></td>
+</tr>
+<tr>
+    <td>Primer apellido : </td>
+    <td><input type="text" id="ape1" name="ape1"></td>
+    <td>Segundo apellido :</td>
+    <td><input type="text" id="ape2" name="ape2"></td>
+</tr>
+<tr>
+    <td>Telefono : </td>
+    <td><input type="tel" id="tel" name="tel"></td>
+    <td>Fecha registro :</td>
+    <td><input type="date" id="fecha" name="fecha"></td>
+</tr>
+<tr>
+    <td>Salario mensual : </td>
+    <td><input type="text" id="salario" name="salario"></td>
+    <td>Valor Solicitado :</td>
+    <td><input type="text" id="solicitud" name="solicitud"></td>
+</tr>
+<tr>
+    <td>Certificado laboral : </td>
+    <td><input type="radio" id="certificadosi" name="certificado">
+    <label for="si">Si</label><br>
+    <input type="radio" id="certificadono" name="certificado">
+    <label for="no">No</label>
+
+</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Tipo de Cliente : </td>
+    <td>
+        <select id="tipcliente" name="tipcliente">
+            <option value="1">Militar</option>
+            <option value="2">Funcionario</option>
+        </select>
+    </td>
+    <td></td>
+    <td></td>
+</tr>
+    <div id="otrosmilitar" >
+        <tr id="rango" style="display: none">
+            <td>Rango : </td>
+            <td>
+                <select name="milrango">
+                    <option value="1">Soldado</option>
+                    <option value="2">Teniente</option>
+                    <option value="3">Coronel</option>
+                    <option value="4">Capitan</option>
+                </select>
+            </td>
+            <td>Tiempo de Servicio : </td>
+            <td><input type="text" id="tiemservi" name="tiemserv"></td>
+        </tr>
+    </div>
+
+    <div id="funcionario">
+        <tr>
+            <td>Cargo Funcionario : </td>
+            <td>
+                <select name="funcargo">
+                    <option value="1">Operativo</option>
+                    <option value="2">Administrativo</option>
+                    <option value="3">Directivo</option>
+                </select>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </div>
+
+    <div id="observacion">
+    <tr>
+        <td></td>
+        <td></td>
+        <td>Observaciones : </td>
+        <td><textarea name="observaciones" rows="10" cols="25">Observaciones</textarea></td>
+    </tr>
+    </div>
+</table>
+
+<button type="submit">Guardar</button>
+
+</form>
+
+</body>
+</html>

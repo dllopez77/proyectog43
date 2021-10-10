@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="LCI">
+        <meta name="keywords" content="HTML5">
+        <title>Sistema de información crediticia</title>
+    </head>
+    <body>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Pre-estudio</a></li>
+                <li><a href="#">Salir</a></li>
+            </ul>
+        </nav>
+
+        <form>
+            <table>
+                <caption>Pre-estudio del cliente</caption>
+
+                <tr>
+                    <td> Número de la solicitud: </td>
+                    <td> <input type="text" id="fNumeroDeSolicitud" name="fNumeroDeSolicitud"></td>
+                </tr>
+                
+                <tr>
+                    <td>Número de cédula : </td>
+                    <td><input type="number" id="cedula" name="cedula"></td>
+                    <td>Edad :</td>
+                    <td><input type="number" id="edad" name="edad"></td>
+                </tr>
+                
+                <tr>
+                    <td>Primer nombre : </td>
+                    <td><input type="text" id="nom1" name="nom1"></td>
+                    <td>Segundo nombre :</td>
+                    <td><input type="text" id="nom2" name="nom2"></td>
+                </tr>
+                
+                <tr>
+                    <td>Primer apellido : </td>
+                    <td><input type="text" id="ape1" name="ape1"></td>
+                    <td>Segundo apellido :</td>
+                    <td><input type="text" id="ape2" name="ape2"></td>
+                </tr>
+                
+                <tr>
+                    <td>Teléfono : </td>
+                    <td><input type="tel" id="tel" name="tel"></td>
+                    <td>Fecha registro :</td>
+                    <td><input type="date" id="fecha" name="fecha"></td>
+                </tr>
+                
+                <tr>
+                    <td>Salario mensual : </td>
+                    <td><input type="number" id="salario" name="salario"></td>
+                    <td>Valor Solicitado :</td>
+                    <td><input type="number" id="solicitud" name="solicitud"></td>
+                </tr>
+                
+                <tr>
+                    <td>Certificado laboral : </td>
+                    <td><input type="radio" id="certificadosi" name="certificado">
+                    <label for="si">Si</label><br>
+                    <input type="radio" id="certificadono" name="certificado">
+                    <label for="no">No</label>
+                    <td>Reportado en centrales : </td>
+                    <td><input type="radio" id="reportadosi" name="reportado">
+                    <label for="si">Si</label><br>
+                    <input type="radio" id="reportadono" name="reportado">
+                    <label for="no">No</label>
+                </td>
+
+                <tr>
+                    <td>Viabilidad : </td>
+                    <td><input type="radio" id="viabilidadosi" name="viabilidad">
+                    <label for="si">Si</label><br>
+                    <input type="radio" id="viabilidadno" name="viabilidad">
+                    <label for="no">No</label>
+                    <td>Capacidad de crédito : </td>
+                    <td><input type="number" id="capacidad" name="capacidad"></td>
+                </td>
+
+                <tr>
+                    <td>Se otorga la libranza : </td>
+                    <td><input type="radio" id="libranzasi" name="libranza">
+                    <label for="si">Si</label><br>
+                    <input type="radio" id="libranzano" name="libranza">
+                    <label for="no">No</label>
+                    <td>Valor aprobado : </td>
+                    <td><input type="number" id="valorAprob" name="valorAprob"></td>
+                </td>
+
+                <tr>
+                    <td>Fecha de desembolso : </td>
+                    <td><input type="date" id="fechaDes" name="fechaDes"></td>
+                </tr>
+            
+                <div id="observacion">
+                    <tr>
+                        <td>Observaciones : </td>
+                        <td><textarea name="observaciones" rows="10" cols="30">Observaciones</textarea></td>
+                    </tr>
+                </div>
+
+            </table>
+            <button type="submit">Consultar</button>
+            <button type="submit">Guardar</button>
+            <button type="submit">Reporte</button>
+        </form>
+    </body>
+</html>
